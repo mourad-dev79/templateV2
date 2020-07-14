@@ -1,0 +1,589 @@
+/* start our framwork */
+
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+.container{
+    width: 1000px;
+    margin: auto;
+}
+
+.table {
+    height: 100%;
+    display: table;
+}
+
+.table-row{
+    display: table-row;
+}
+
+.text-center {
+    text-align: center;
+  
+}
+
+.upper{
+    text-transform: uppercase;
+}
+
+.main-color {
+    color: #f7600e;
+}
+
+.main-background {
+    background-color: #f7600e;
+}
+
+.overlay {
+    background-color: rgba(49, 55, 61, .9);
+    width: 100%;
+    height: 100%;
+}
+
+.hiddenn {
+    display: none;
+}
+
+.subscribe ::-webkit-input-placeholder { 
+    font-size: 14px;
+}
+
+.subscribe ::-moz-input-placeholder { 
+    font-size: 14px;
+}
+
+.subscribe ::-ms-input-placeholder { 
+    font-size: 14px;
+}
+
+/* end framwork */
+
+/* start header */
+
+.header {
+    background: url(../image/images.jpeg);
+    -webkit-background-size: cover ;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #fff;
+}
+
+
+.header .navbar {
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+.header .navbar .links{
+    float: right;
+}
+
+.header .navbar .links i{
+    margin-left: 5px;
+}
+
+.header .intro h1 {
+    font-size: 40px;
+    font-weight: 800;
+    margin: 0;
+}
+
+.header .intro p {
+    margin: 5px 0 40px;
+    line-height: 1.9;
+    font-size: 18px;
+}
+
+.header .buttons button {
+
+    color: #fff;
+    background-color: transparent;
+    padding: 10px 0;
+    width: 155px;
+    font-size: 14px;
+    border: 1px solid #908990;
+    border-radius: 10px;
+    margin: 0 8px;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.header .buttons button:hover{
+    background-color: #f7600e;
+    border: 1px solid #f7600e;
+    
+}
+
+.header .arrow{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.header .arrow i {
+    border: 2px solid #7b7b7b ;
+    border-radius: 50%;
+    width: 33px;
+    height: 33px;
+    line-height: 33px;
+    cursor: pointer;
+}
+
+/* end header */
+
+
+/* start feautures */
+
+.feautures {
+    padding: 80px 0;
+    overflow: hidden;
+}
+
+.feautures .box {
+    width: 20%;
+    float: left;
+    margin-right: 5%;
+}
+
+.feautures .box:last-child{
+    margin-right: 0;
+}
+
+.feautures .box i{
+    color: #f7600e;
+    border: 1px solid #ccc;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    border-radius: 50%;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+.feautures .box i:hover {
+    background-color: #f7600e;
+    color: #fff;
+    border-color: #f7600e;
+}
+
+.feautures .box h3{
+    text-transform: uppercase;
+    font-weight: normal;
+    color: #505050;
+}
+
+.feautures .box p {
+    color: #888888;
+    line-height: 2;
+}
+
+/* end features */
+
+/* start subscribe */
+
+.subscribe {
+    background: url(../image/table-coffee-morning-pot.jpg);
+    -webkit-background-size: cover ;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+.subscribe form {
+    width: 600px;
+    margin: auto;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.subscribe form input[type ="email"]{
+    padding: 5px;
+    width: 370px;
+    font-size: 20px;
+    position: relative;
+    top: 1px;
+    border: none;
+    border-radius: 10px;
+}
+
+.subscribe form button {
+    padding: 9px;
+    width: 130px;
+    background-color: #f7600e;
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+    margin-left: 21px;
+    font-size: 15px;
+}
+
+
+
+/* end subscribe */
+
+/* start our work */
+
+.our-work h2{
+    font-weight: normal;
+    font-size: 30px;
+}
+
+.our-work h2 ~ p{
+    line-height: 1.9;
+    margin: 10px 0 40px;
+}
+
+.our-work .show-more {
+    padding: 10px;
+    width: 180px;
+    background: transparent;
+    color: #555555;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-top: 13px;
+    margin-bottom: 20px;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.our-work .show-more:hover {
+    background-color: #f7600e;
+    color: #fff;
+    border-color: #f7600e;
+    cursor: pointer;
+}
+
+.our-work .items-box {
+    overflow: hidden;
+}
+
+.our-work .items-box .item {
+    width: 30%;
+    float: left;
+    overflow: hidden;
+    margin-left: 1%;
+    margin-bottom: 12px;
+    border-radius: 10px;
+    position: relative;
+    
+}
+
+.our-work .items-box .item .over {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(247, 96, 14, .9);
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    
+    display: none;
+
+}
+
+.our-work .items-box .item:hover .over{
+    display: block;
+}
+
+.our-work .item .over h4 {
+    font-size: 20px;
+    margin-top: 65px;
+    margin-bottom: 0;
+
+
+}
+
+.our-work .item .over p{
+    line-height: 2;
+    margin-bottom: 35px;
+    margin-top: 10px;
+}
+
+.our-work .item .over button {
+    background: transparent;
+    color: #fff;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    width: 150px;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.our-work .item .over button:hover {
+    background-color: #fff;
+    color: #f7600e;
+}
+
+/* end our work */
+
+/* start testimonials */
+
+.testim {
+   
+    background: url(../image/coffee-table-tablet-coffe.jpg);
+    -webkit-background-size: cover ;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+}
+
+.testim .client {
+    padding: 50px 0;
+    font-size: 20px;
+    color: #fff;
+   
+}
+.testim .container {
+    width: 790px;
+    margin: auto;
+    position: relative;
+}
+
+.testim .client img{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+}
+
+.testim .client p{
+    font-style: italic;
+}
+
+.testim .fa-chevron-right , .testim .fa-chevron-left {
+    position: absolute;
+    top: 50%;
+    color: #999999;
+    cursor: pointer;
+}
+
+.testim .fa-chevron-right:hover , .testim .fa-chevron-left:hover {
+    color: #f7600e;
+
+}
+
+
+.testim .fa-chevron-right {
+    right: 0;
+}
+
+.testim .fa-chevron-left {
+    left: 0;
+}
+
+
+/* end testimonials */
+
+/* start our team*/
+
+.our-team {
+    padding: 40px 0;
+}
+
+.our-team h2{
+    font-size: 35px;
+    margin-bottom: 0;
+}
+
+.our-team p{
+    font-size: 18px;
+    line-height: 2;
+    color: #555555;
+    margin: 10px 0 40px;
+}
+
+.our-team .the-team {
+    overflow: hidden;
+}
+
+.our-team .person {
+    float: left;
+    width: 24%;
+    overflow: hidden;
+    color: #888888;
+    
+}
+
+.our-team .person:hover img {
+  filter: none;
+}
+
+.our-team .person:hover  .fa-facebook{
+    background-color: #3b5998;
+}
+
+.our-team .person:hover  .fa-google-plus{
+    background-color: #dc4e41;
+}
+
+.our-team .person:hover  .fa-twitter{
+    background-color: #55acee;
+}
+
+.our-team .person:hover  {
+    color: #555555;
+  }
+
+.our-team .person img {
+    width: 220px;
+    height: 210px;
+    filter: gray;
+    filter: grayscale(1);
+}
+
+.our-team .person p 
+{
+    font-size: 15px;
+    line-height: 1.8;
+
+}
+
+.our-team .the-team .social i {
+    background-color: #9da1a5;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    border-radius: 50%;
+}
+
+
+/* end our team*/
+
+/* start contact form */
+
+.contact {
+    background: url(../image/51494844-website-designer-working-digital-tablet-and-computer-laptop-with-smart-phone-and-digital-design-diag.jpg);
+    -webkit-background-size: cover ;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.contact .overlay {
+    padding: 40px 0;
+    color: #fff;
+}
+
+.contact form {
+    width: 700px;
+    margin: 50px auto;
+    text-align: center;
+   
+}
+
+.contact form input[type="text"],
+.contact form input[type="email"]
+{
+    width: 48%;
+    float: left;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    height: 30px;
+    line-height: 30px;
+    background-color: transparent;
+
+}
+.contact form input[type="email"] {
+    float: left;
+}
+
+.contact form input[type="text"] {
+    float: right;
+}
+
+.contact form textarea {
+    width: 100%;
+    margin-top: 20px; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    height: 140px;
+    background-color: transparent;
+   
+}
+
+.contact form .info{
+    overflow: hidden;
+}
+
+
+.contact form .info button {
+    float: left;
+}
+
+.contact form .info .form-icons{
+    float: right;
+
+}
+
+.contact form .info .form-icons i{
+    background-color: #9da1a5;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    border-radius: 50%;
+}
+
+.contact form .info .form-icons .fa-facebook{
+    background-color: #3b5998;
+}
+
+.contact form .info .form-icons  .fa-google-plus{
+    background-color: #dc4e41;
+}
+
+.contact form .info .form-icons  .fa-twitter{
+    background-color: #55acee;
+}
+
+.contact form .info button {
+    padding: 9px;
+    width: 160px;
+    background-color: #f7600e;
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+/* end contact*/
+
+/* footer */
+
+.footer {
+    background-color: #3b434c;
+    color: #fff;
+    overflow: hidden;
+    padding: 30px 0;
+}
+
+.footer .copyright {
+
+    float: left;
+}
+
+.footer .design {
+
+    float: right;
+}
